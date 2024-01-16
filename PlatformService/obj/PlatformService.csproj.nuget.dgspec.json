@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CharpPetProjects\\Microservices\\ASP.NET_Microservices\\PlatformService\\PlatformService.csproj": {}
+    "D:\\CharpPetProjects\\Microservices\\aspnetMicroservices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\CharpPetProjects\\Microservices\\ASP.NET_Microservices\\PlatformService\\PlatformService.csproj": {
+    "D:\\CharpPetProjects\\Microservices\\aspnetMicroservices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CharpPetProjects\\Microservices\\ASP.NET_Microservices\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "D:\\CharpPetProjects\\Microservices\\aspnetMicroservices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\CharpPetProjects\\Microservices\\ASP.NET_Microservices\\PlatformService\\PlatformService.csproj",
+        "projectPath": "D:\\CharpPetProjects\\Microservices\\aspnetMicroservices\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\timatima\\.nuget\\packages\\",
-        "outputPath": "D:\\CharpPetProjects\\Microservices\\ASP.NET_Microservices\\PlatformService\\obj\\",
+        "outputPath": "D:\\CharpPetProjects\\Microservices\\aspnetMicroservices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -74,6 +77,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
